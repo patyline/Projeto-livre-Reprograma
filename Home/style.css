@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px; /* definir uma font-size padrão */
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#menu {
+  display: flex;
+  justify-content:space-around;
+  align-items: center; 
+  flex-direction: row;
+  background-color: #0a223c;
+
+}
+
+.elementosNave{
+  display: flex;
+  
+}
+
+.elementosNave a {
+  padding: 0 15px;
+  color: #fff;
+
+}
