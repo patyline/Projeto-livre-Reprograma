@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 html {
@@ -7,12 +8,19 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
+}
+
+h1 {
+  text-align: center;
 }
 
 #menu {
@@ -20,17 +28,71 @@ ul {
   justify-content:space-around;
   align-items: center; 
   flex-direction: row;
-  background-color: #0a223c;
+  background-color: #0b4d8f;
+}
 
+#conteudo {
+  width: 1200px;
+  margin: 0 auto; 
+}
+
+.banner {
+  width: 100%;
+  height: auto;
 }
 
 .elementosNave{
   display: flex;
-  
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 .elementosNave a {
   padding: 0 15px;
   color: #fff;
+}
+
+#conteudo{
+justify-content: center;
+}
+
+#conteudo h4 {
+  text-align: center;
+}
+
+.titulo_passadas {
+  text-align: center;
+  width: 500px;
+  padding: 20px 20px;
+  margin: auto;
+  text-align: justify;
+  line-height: 2;
+}
+
+.informacao li{
+  text-align: center;
+  width: 350px;
+  padding: 10px 20px;
+
+}
+
+.informacao > ul{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+
+}
+#fotos_acoes ul {
+  display: flex;
+  justify-content:space-around;
+}
+
+.doe_agora {
+  display: flex;
+  justify-content: center;
+}
+
+#contatos ul{
+  display: flex;
 
 }
