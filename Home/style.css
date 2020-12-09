@@ -9,6 +9,8 @@ html {
 
 body {
     margin: 0;
+    background-color: #daecff;
+
 }
 
 a {
@@ -92,7 +94,37 @@ justify-content: center;
   justify-content: center;
 }
 
-#contatos ul{
+#contatos {
   display: flex;
-
+  justify-content:space-around;
+  align-items: center; 
+  flex-direction: row;
+  background-color: #0b4d8f;
 }
+
+#contatos ul {
+  display:flex;
+  justify-content:space-around;
+  align-items: center; 
+  flex-direction: row;
+}
+
+#contatos li {
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.telefone {
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  background: #1a6bd7;
+  padding: 5px 10px;
+  color: #fff;
+}
+
