@@ -1,16 +1,17 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 html {
-    font-size: 16px; /* definir uma font-size padrão */
+  font-size: 16px; /* definir uma font-size padrão */
 }
 
 body {
-    margin: 0;
-    background-color: #daecff;
-
+  margin: 0;
+  background-color: #daecff;
+  padding-bottom: 200px;
+  position: relative;
 }
 
 a {
@@ -19,6 +20,7 @@ a {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 h1 {
@@ -27,15 +29,15 @@ h1 {
 
 #menu {
   display: flex;
-  justify-content:space-around;
-  align-items: center; 
+  justify-content: space-around;
+  align-items: center;
   flex-direction: row;
   background-color: #0b4d8f;
 }
 
 #conteudo {
   width: 1200px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .banner {
@@ -43,7 +45,7 @@ h1 {
   height: auto;
 }
 
-.elementosNave{
+.elementosNave {
   display: flex;
   font-weight: bolder;
   font-size: 18px;
@@ -54,8 +56,8 @@ h1 {
   color: #fff;
 }
 
-#conteudo{
-justify-content: center;
+#conteudo {
+  justify-content: center;
 }
 
 #conteudo h4 {
@@ -71,22 +73,20 @@ justify-content: center;
   line-height: 2;
 }
 
-.informacao li{
+.informacao li {
   text-align: center;
   width: 350px;
-  padding: 10px 20px;
-
+  padding: 10px 0;
 }
 
-.informacao > ul{
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
-
+.informacao > ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 #fotos_acoes ul {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 .doe_agora {
@@ -96,16 +96,16 @@ justify-content: center;
 
 #contatos {
   display: flex;
-  justify-content:space-around;
-  align-items: center; 
+  justify-content: space-around;
+  align-items: center;
   flex-direction: row;
   background-color: #0b4d8f;
 }
 
 #contatos ul {
-  display:flex;
-  justify-content:space-around;
-  align-items: center; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: row;
 }
 
@@ -128,3 +128,79 @@ footer {
   color: #fff;
 }
 
+.conteudo-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.conteudo-container .img-container {
+  position: absolute;
+  bottom: -35px;
+  background: #0b4d8f;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato {
+  margin-top: 80px;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  border-radius: 0 0 5px 15px;
+  background: #fff;
+  box-shadow: 2px 9px 24px -1px #9c9a9a;
+  border-top: 4px solid #0b4d8f;
+}
+
+.contato h1 {
+  text-align: center;
+}
+
+.contato span {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.contato .contato-info {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #0b4d8f;
+}
+
+.contato .contato-info a {
+  padding: 15px 0;
+}
+
+.doacao {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 5em;
+}
+
+.doacao .img-container {
+  display: inline-block;
+  background: #f1e172;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.doacao img {
+}
+
+.contato-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
