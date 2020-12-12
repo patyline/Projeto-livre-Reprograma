@@ -12,6 +12,7 @@ body {
   background-color: #daecff;
   padding-bottom: 200px;
   position: relative;
+  overflow-x: hidden;
 }
 
 a {
@@ -25,6 +26,12 @@ ul {
 
 h1 {
   text-align: center;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
 }
 
 #menu {
@@ -41,8 +48,10 @@ h1 {
 }
 
 .banner {
-  width: 100%;
+  width: 80%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .elementosNave {
@@ -64,6 +73,10 @@ h1 {
   text-align: center;
 }
 
+.carousel-cell {
+  margin-right: 10px;
+}
+
 .titulo_passadas {
   text-align: center;
   width: 500px;
@@ -73,10 +86,19 @@ h1 {
   line-height: 2;
 }
 
-.informacao li {
+.informacao {
+  margin: 50px 0 100px;
+}
+
+.informacao > ul > li {
   text-align: center;
   width: 350px;
-  padding: 10px 0;
+  margin: 10px;
+  background: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 30px 20px;
+  box-shadow: 2px 9px 24px -1px #9c9a9a;
+  border-top: 4px solid #0b4d8f;
 }
 
 .informacao > ul {
